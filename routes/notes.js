@@ -3,7 +3,7 @@ const { readAndAppend, readFromFile, writeToFile } = require('../helper/helper')
 const { v4: uuidv4 } = require('uuid');
 
 notes.get('/', (req, res) =>{
-readFromFile('./public/db/db.json').then((data) => res.json(JSON.parse(data)));
+readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
 notes.get('/:id',(req,res)=>{
