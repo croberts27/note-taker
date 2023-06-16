@@ -12,8 +12,9 @@ This application called 'Note Taker' that can be used to write and save notes. T
 
 ## Installation
 
-- npm install express
 - Node.js
+- npm install express
+- npm install uuid
 
 ## Usage
 This is free use.

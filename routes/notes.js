@@ -18,10 +18,10 @@ notes.post('/', (req, res) => {
             text,
             id: uuidv4(),
         }
-        readAndAppend(newNote,'./public/db/db.json')
-        res.json('Task added Successfully')
+        readAndAppend(newNote,'db/db.json')
+        res.json('Note created successfully')
     } else{
-        res.error('Error in posting task')
+        res.error('Error in creating note')
     }
 });
 

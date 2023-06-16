@@ -1,6 +1,16 @@
 [
     {
-        "title":"Test Title",
-        "text":"Test text"
+        "title": "Test Title",
+        "text": "Test text"
+    },
+    {
+        "title": "Sample Note",
+        "text": "This is a test to verify my code is working properly",
+        "id": "adf5301a-26a8-4a50-87dc-ed86097c3a49"
+    },
+    {
+        "title": "Grocery Store List",
+        "text": "Eggs\nMilk\nBread\nCheese\nOreos \nLa Croix",
+        "id": "44876590-474c-4ff5-9d4c-a54cea3a0af4"
     }
 ]
